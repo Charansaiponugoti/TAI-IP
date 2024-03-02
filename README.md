@@ -1,6 +1,6 @@
 Task ouput(images) and description given below:
 
-Level-1_Task-1_Number_Guessing_Game: 
+Level-1_Task-1_Number_Guessing_Game:                   
   This Python code defines a simple number guessing game. Here's a brief description of how it works:
   1.A random number between 1 and 100 is generated using the random.randint(1, 100) function.
   2.The user is prompted to guess the number.
@@ -28,7 +28,7 @@ Level-1_Task-2_Countdown_Clock:
   Level-1_Task-2_Countdown_Clock OUTPUT:
   ![Level-1_Task-2_Countdown_Clock](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/d7ef90cd-f1b1-4d3d-a275-925af27154e0)
   
-Level-1_Task-3_Quiz_Application:
+Level-1_Task-3_Quiz_Application:                
    The provided Python code defines a simple quiz program that asks random multiple-choice questions and calculates the user's score based on the correctness of their answers.
    Here's how the code works:
  1.Questions Data: The quiz questions are stored as a list of dictionaries in the questions variable. Each dictionary represents a question and contains the question text, options, and correct answer.
@@ -44,7 +44,7 @@ Level-1_Task-3_Quiz_Application:
    Level-1_Task-3_Quiz_Application OUTPUT:
    ![Level-1_Task-3_Quiz_Application](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/04ba6d5d-9541-40ea-977a-f84ac5c91556)
 
-Level-2_Task-1_Credit_Card_Validator:
+Level-2_Task-1_Credit_Card_Validator:          
    The provided Python code defines a function named validate_credit_card that uses the Luhn algorithm to validate a credit card number. The Luhn algorithm is a checksum formula used to validate a variety of identification numbers, such as credit card numbers.
    Here's a breakdown of how the code works:
    1.Input Validation: The input card_number is processed using re.sub(r'\D', '', card_number), which removes all non-numeric characters from the input.
@@ -62,7 +62,7 @@ Level-2_Task-1_Credit_Card_Validator:
      Level-2_Task-1_Credit_Card_Validator OUTPUT:
     ![Level-2_Task-1_Credit_Card_Validator](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/c8b298c6-73bc-4f27-8096-686d0337db23)
 
-Level-2_Task-2_Location_Finder:
+Level-2_Task-2_Location_Finder:        
    This code defines a Python function named get_user_location that uses the Nominatim class from the geopy.geocoders module to get the GPS coordinates of a user's location based on their input (e.g., city, country). Here's a summary of the code's functionality:
    1.Importing Necessary Libraries: The code imports the Nominatim class from the geopy.geocoders module.
    2.Function Definition: The get_user_location function is defined to fetch the user's GPS coordinates. Within this function:
@@ -77,7 +77,7 @@ Level-2_Task-2_Location_Finder:
    Level-2_Task-2_Location_Finder OUTPUT:
   ![Level-2_Task-2_Location_Finder](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/56506103-6d91-4c39-accb-754e10483ad5)
 
-Level-2_Task-3_Document_Scanner:
+Level-2_Task-3_Document_Scanner:              
   This Python code is designed to perform basic document scanning and edge detection using the OpenCV library. Here's a breakdown of the code's functionality:
   1.Library Import: The code imports the necessary libraries, including cv2 for image processing and numpy for numerical operations.
   2.Image Capture or Loading: The cv2.imread function is used to load an existing image named 'level3.jpg'. Alternatively, you can use a webcam to capture an image.
@@ -90,7 +90,7 @@ Level-2_Task-3_Document_Scanner:
    Level-2_Task-3_Document_Scanner OUTPUT:
   ![Level-2_Task-3_Document_Scanner](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/da328821-c0c1-4cbe-a775-af7fe4cfe438)
 
-Level-3_Task-2_Payment_application:
+Level-3_Task-2_Payment_application:                  
   This Python code defines a process_payment function that simulates processing a payment of a specified amount. 
   The main function prompts the user to enter a payment amount. If the entered amount is not a positive number, a ValueError is raised, and the payment fails. Otherwise, the payment is successfully processed.
 
