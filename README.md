@@ -9,10 +9,10 @@ Level-1_Task-1_Number_Guessing_Game:
   5.Once the user's guess matches the randomly generated number, the program prints "Congratulations! You guessed the correct number." and terminates.
     The game is designed to provide feedback and guide the user to the correct answer, making it suitable for educational purposes or casual entertainment. It also demonstrates basic error handling and the use of the random module in Python.
    
-   OUTPUT:
+   evel-1_Task-1_Number_Guessing_Game OUTPUT:
     ![Level-1_Task-1_Number_Guessing_Game](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/adddc26a-0e3e-4c45-92bb-057b03c3312e)
     
-Level-1_Task-2_Countdown_Clock:
+Level-1_Task-2_Countdown_Clock:              
     The code defines a Python function named countdown that takes a single parameter end_datetime. The function continuously calculates and prints the remaining time until end_datetime is reached.
   The provided end_datetime is set to March 2, 2024, at 11:00 PM (23:00).
   The function countdown:
@@ -25,7 +25,7 @@ Level-1_Task-2_Countdown_Clock:
   The countdown function can be used to create a countdown timer for various purposes, such as tracking the time remaining until a specific event or deadline. However, it currently only prints the remaining time to the console; additional coding would be needed to integrate it into a GUI or to add other functionalities.
   To use this code, you can change the end_datetime variable to specify a different end date and time for the countdown.
   
-  OUTPUT:
+  Level-1_Task-2_Countdown_Clock OUTPUT:
   ![Level-1_Task-2_Countdown_Clock](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/d7ef90cd-f1b1-4d3d-a275-925af27154e0)
   
 Level-1_Task-3_Quiz_Application:
@@ -41,7 +41,7 @@ Level-1_Task-3_Quiz_Application:
    The user can interact with the quiz by entering their answers to the questions presented. The program provides feedback on the correctness of the answers and gives a final score at the end.
    To use this code, you can customize the questions variable byask adding more questions or modifying the existing ones.
    
-   OUTPUT:
+   Level-1_Task-3_Quiz_Application OUTPUT:
    ![Level-1_Task-3_Quiz_Application](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/04ba6d5d-9541-40ea-977a-f84ac5c91556)
 
 Level-2_Task-1_Credit_Card_Validator:
@@ -59,8 +59,8 @@ Level-2_Task-1_Credit_Card_Validator:
   5.User Input and Result Display: The user is prompted to enter a credit card number. The validate_credit_card function is called to validate the input, and the result is printed as either "Valid credit card number!" or "Invalid credit card number."
    This code can be used to quickly validate a credit card number based on the Luhn algorithm. It is a simple implementation and doesn't include additional checks such as the card's issuer or expiration date.  
     
-    OUTPUT:
-    ![Level-2_Task-1_Credit_Card_Validator](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/777e5d30-f343-4b98-8fef-fdac0973dc49)
+     Level-2_Task-1_Credit_Card_Validator OUTPUT:
+    ![Level-2_Task-1_Credit_Card_Validator](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/c8b298c6-73bc-4f27-8096-686d0337db23)
 
 Level-2_Task-2_Location_Finder:
    This code defines a Python function named get_user_location that uses the Nominatim class from the geopy.geocoders module to get the GPS coordinates of a user's location based on their input (e.g., city, country). Here's a summary of the code's functionality:
@@ -74,7 +74,7 @@ Level-2_Task-2_Location_Finder:
    3.Main Function Call: The if __name__ == "__main__": block is used to call the get_user_location function when the script is executed directly. This ensures that the code inside the if block is executed only when the script is run as the main program. 
    Overall, this code provides a simple way to obtain the GPS coordinates of a user's location using the geopy library. The user is prompted to input their location, and the script returns the latitude and longitude.
   
-  OUTPUT:
+   Level-2_Task-2_Location_Finder OUTPUT:
   ![Level-2_Task-2_Location_Finder](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/56506103-6d91-4c39-accb-754e10483ad5)
 
 Level-2_Task-3_Document_Scanner:
@@ -87,14 +87,14 @@ Level-2_Task-3_Document_Scanner:
   6.Displaying the Scanned Document: The scanned document is displayed in a window named 'Scanned Document' using cv2.imshow. The window remains open until a key is pressed (cv2.waitKey), after which it is closed using cv2.destroyAllWindows.
     This code provides a basic document scanning and edge detection functionality using OpenCV, which can be further extended and customized based on specific requirements.
 
-  OUTPUT:
+   Level-2_Task-3_Document_Scanner OUTPUT:
   ![Level-2_Task-3_Document_Scanner](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/da328821-c0c1-4cbe-a775-af7fe4cfe438)
 
 Level-3_Task-2_Payment_application:
   This Python code defines a process_payment function that simulates processing a payment of a specified amount. 
   The main function prompts the user to enter a payment amount. If the entered amount is not a positive number, a ValueError is raised, and the payment fails. Otherwise, the payment is successfully processed.
 
-  OUTPUT:
+   Level-3_Task-2_Payment_application OUTPUT:
   ![level-3_Task-2_Payment_Application](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/d693d3ac-be80-40bb-ac42-e0aa2a983218)
 
 
