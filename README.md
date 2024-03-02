@@ -60,6 +60,7 @@ Level-2_Task-1_Credit_Card_Validator:
    This code can be used to quickly validate a credit card number based on the Luhn algorithm. It is a simple implementation and doesn't include additional checks such as the card's issuer or expiration date.  
     
      Level-2_Task-1_Credit_Card_Validator OUTPUT:
+     
     ![Level-2_Task-1_Credit_Card_Validator](https://github.com/Charansaiponugoti/TAI-IP/assets/160638909/c8b298c6-73bc-4f27-8096-686d0337db23)
 
 Level-2_Task-2_Location_Finder:        
